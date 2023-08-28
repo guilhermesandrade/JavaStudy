@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Exercicios_vetores.exercicios&apos; to &apos;negativos&apos;&#x0D;&#x0A;- Original project: &apos;cursoJava&apos;&#x0D;&#x0A;- Original element: &apos;Exercicios_vetores.exercicios&apos;&#x0D;&#x0A;- Renamed element: &apos;Exercicios_vetores.negativos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;exercicios&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Exercicios_vetores{exercicios.java[exercicios" matchStrategy="1" name="negativos" qualified="false" references="true" similarDeclarations="false" stamp="1690369254533" textual="false" version="1.0"/>
+</session>
