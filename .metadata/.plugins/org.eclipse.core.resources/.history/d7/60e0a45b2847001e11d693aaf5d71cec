@@ -1,0 +1,8 @@
+package Exercicio_enumerações_composição;
+
+public class OrderItem {
+
+	private Integer quantity;
+	private Double price;
+	
+}

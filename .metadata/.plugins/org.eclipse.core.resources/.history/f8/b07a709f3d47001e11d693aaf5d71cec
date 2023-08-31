@@ -1,0 +1,30 @@
+package Exercicio_enumerações_composição;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Scanner sc= new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		DateTimeFormatter fmt1= DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss").withZone(ZoneId.systemDefault()); 
+		
+		Client client= new Client();
+		
+		System.out.printf("Enter client data: %nName: ");
+		String name= sc.nextLine();
+		System.out.printf("Email: ");
+		String email= sc.nextLine();
+		System.out.printf("Birth Date (DD/MM/YYYY): ");
+		LocalDate d01 = LocalDate.parse(sc.nextLine());
+		
+
+	}
+
+}
